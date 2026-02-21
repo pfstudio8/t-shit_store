@@ -52,13 +52,33 @@ const remeras = [
         L: 1,
         XL: 2
     }),
-    new Remera("Remera Mujer Classic", 12000, "img/butterfly.jpeg", {
+    new Remera("Remera Mujer Classic", 15000, "img/butterfly.jpeg", {
         S: 0,
         M: 0,
         L: 0,
         XL: 1
     }),
+    new Remera("Baby Body", 10000, "img/abejita.jpeg", {
+        1: 0,
+        2: 0,
+        3: 0,
+        4: 0
+    }),
+    new Remera("Remera Niño", 12000, "img/lila.jpeg", {
+        S: 0,
+        M: 0,
+        L: 0,
+        XL: 0
+    }),
     
+    new Remera("Remera Mujer Classic", 15000, "img/luci.jpeg", {
+        S: 0,
+        M: 0,
+        L: 0,
+        XL: 0
+    }),
+    
+
 ];
 
 remeras.forEach(remera => {
